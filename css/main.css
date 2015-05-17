@@ -1,0 +1,473 @@
+/*******************************
+
+GENERAL
+
+*******************************/
+
+
+
+body {
+
+  font-family:'Open Sans', sans-serif;
+
+}
+
+
+
+#wrapper {
+
+max-width: 940px;
+
+  margin: 0 auto;
+
+  padding: 0 5%;
+
+  background-color: #fff;
+
+  }
+
+
+
+a {
+
+text-decoration: none;
+
+} 
+
+
+
+img {
+
+  max-width: 100%;
+
+}
+
+
+
+
+/*******************************
+
+HEADING
+
+*******************************/
+
+
+
+header {
+
+  float: left;
+
+  margin: 0 0 30px 0;
+
+  padding: 5px 0 0 0;
+
+  width: 100%;
+
+  
+
+}
+
+
+
+/*  new code below for powershop header logo */
+
+
+
+ div#header {
+
+ width:250px;
+
+ height:100px;
+
+ margin:0 ;
+
+}
+
+
+
+ div#header img {
+
+ width:250px; /* the width of the logo image */
+
+ height:38px; /* the height of the logo image */
+
+ margin: 25px 0 0 25px ;
+  
+
+}
+
+
+
+
+/*  new code above for powershop header logo */
+
+
+
+
+
+
+
+
+
+/*******************************
+
+NAVIGATION
+
+*******************************/
+
+
+
+nav { 
+
+  text-align: center;
+
+  padding: 10px 0;
+
+  margin: 20px 0 0;
+
+}
+
+
+
+nav ul {
+
+list-style: none;
+
+  margin: 10px 0 10px 10px;
+
+  padding: 0%;
+
+}
+
+
+
+nav li {
+
+display: inline-block;
+
+}
+
+  
+
+nav a {
+
+  font-weight: 1800;
+  
+  padding: 15px 10px;
+
+}
+
+  
+
+  
+
+/*******************************
+
+FOOTER
+
+*******************************/
+
+  
+
+footer {
+
+  font-size: 0.75em;
+
+  text-align: center;
+
+  clear:both;
+
+  padding-top: 50px;
+
+    color: #ccc;
+
+}
+
+
+
+.social-icon {
+
+  width: 20px;
+
+  height: 20px;
+
+  margin: 0 5px;
+
+}
+
+
+
+/*******************************
+
+PAGE:SQUAD
+
+*******************************/
+
+
+
+#gallery {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+
+
+#gallery li {
+
+  float: left;
+
+  width: 45%;
+
+  margin: 2.5%;
+
+  background-color: #000;
+
+  color: #bdc3c7;
+
+}
+
+
+
+#gallery li a p{
+
+margin: 0;
+
+  padding: 5%;
+
+  font-size: 0.75em;
+
+  color: #bdc3c7;
+
+  text-align: center;
+  
+
+}
+
+
+/*******************************
+
+PAGE:ABOUT
+
+*******************************/
+
+
+
+.about-photo {
+
+  display: block;
+
+  max-width: 100%;
+
+  margin: 0 auto 30px;
+
+  border-radius: 10%;
+  border: solid black 4px;
+
+}
+
+
+
+
+
+
+
+/*******************************
+
+PAGE:CONTACT
+
+*******************************/
+
+
+
+.contact-info {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+  font-size: 0.9em;
+  
+
+}
+
+
+.contact-info a {
+
+  display: block;
+
+  min-height: 20px;
+
+  background-repeat: no-repeat;
+
+  background-size: 20px 20px;
+
+  padding: 0 0 0 30px;
+
+  margin: 0 o 10px;
+
+}
+
+
+
+
+
+.contact-info li.phone a{
+
+background-image: url('../img/phone.png');
+
+}
+
+
+
+.contact-info li.email a{
+
+background-image: url('../img/mail.png');
+
+}
+
+
+
+.contact-info li.twitter a{
+
+background-image: url('../img/twitter.png');
+
+}
+
+.contact-photo {
+
+  max-width: 100%;
+  border-radius: 10%;
+  border: solid black 4px;
+
+}
+
+
+/*******************************
+
+PAGE:PROFILES
+
+*******************************/
+
+h3 {
+font-size: 1.65em;
+  text-decoration: underline;
+  
+}
+
+h4 {
+font-size: 1.65em;
+  text-decoration: underline;
+  
+}
+
+
+.profile-photo-personal {
+
+  display: inline-block;
+
+  max-width: 250px;
+
+  margin: 0 auto 30px;
+
+  border-radius: 0;
+
+}
+
+
+/*******************************
+
+COLORS
+
+*******************************/
+
+
+
+/* site body*/
+
+body {
+
+  background-color: #fff; 
+
+
+
+  
+
+}
+
+
+
+/* White header*/
+
+header  {
+
+background: #fff;
+
+  border-color: #599a68;
+
+}
+
+
+
+/* black bottom border on mobile*/
+
+header {
+
+  border-bottom: 5px solid #000000;
+
+  margin-bottom: 60px;
+
+  }
+
+
+
+/* nav background on mobile */
+
+nav {
+
+  background: #fff;
+
+ 
+
+}
+
+
+
+
+
+
+
+/* links */
+
+a {
+
+color: #fa0e6a;
+
+}
+
+
+
+/* nav link */
+
+nav a, nav a:visited {
+
+  color: #fa0e6a;
+
+}
+
+/* selected nav link*/
+
+nav a.selected, nav a:hover {
+
+color: #64309f;
+
+}
+
+
+
